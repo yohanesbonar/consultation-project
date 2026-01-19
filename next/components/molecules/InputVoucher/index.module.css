@@ -1,0 +1,24 @@
+.container {
+    @apply tw-flex tw-justify-between tw-gap-4 tw-relative tw-z-50 tw-pt-1
+}
+
+.inputWraper {
+    @apply tw-w-full
+}
+
+.inputVoucher {
+    composes: body-14-regular from global;
+    @apply tw-px-4 tw-py-3 tw-w-full tw-bg-monochrome-100 tw-border-none tw-outline-none tw-text-tpy-700 !tw-rounded-lg
+}
+
+.invalidVoucher {
+    border: 1px solid #B00020 !important;
+}
+
+.textIinvalidVoucher {
+    @apply tw-text-xs tw-text-error-def tw-mt-2 tw-mb-0
+}
+
+.btnInput {
+    @apply tw-bg-secondary-def tw-border-none tw-flex tw-items-center tw-justify-center tw-text-tpy-50 tw-px-4 tw-py-2 tw-rounded-lg tw-h-11
+}

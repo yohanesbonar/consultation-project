@@ -1,0 +1,36 @@
+.footerContainer {
+    @apply tw-shadow-2xl tw-p-4
+}
+.paySection {
+    @apply tw-flex tw-justify-between tw-items-center
+}
+
+.footerTotalLabel {
+    @apply tw-text-tpy-700 tw-text-xs tw-font-medium
+}
+
+.footerTotalValue {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500px;
+    @apply !tw-mb-0 tw-text-black tw-font-medium tw-text-base
+}
+
+.emptyStateContainer {
+    @apply tw-flex tw-flex-col tw-items-center tw-justify-center tw-h-[100%] !tw-w-full tw-fixed tw-top-0 tw-z-0
+}
+
+.emptyStateWrapper {
+    @apply tw-flex tw-mt-20 tw-flex-col tw-items-center tw-justify-center
+}
+
+.emptyStateTitle {
+    @apply tw-mb-0 tw-text-base tw-mt-6
+}
+
+.emptyStateSubtitle {
+    @apply tw-mb-0 tw-text-sm tw-mt-2
+}
+
+.voucherGroupLabel {
+    @apply tw-text-base tw-mt-6
+}

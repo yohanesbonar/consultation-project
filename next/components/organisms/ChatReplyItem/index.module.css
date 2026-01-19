@@ -1,0 +1,24 @@
+.container {
+    @apply tw-rounded-lg tw-py-2 tw-border-0 tw-border-solid tw-border-l-4 tw-pr-2
+}
+
+.doctorTheme {
+    @apply tw-bg-secondary-700 tw-border-secondary-50
+}
+
+.doctorThemeMe {
+    @apply tw-bg-secondary-700 tw-border-primary-300
+}
+
+.patientTheme {
+    @apply tw-bg-secondary-300 tw-border-secondary-def
+}
+
+.defaultPatient {
+ @apply tw-bg-monochrome-150 tw-border-primary-def  
+}
+
+.defaultDoctor {
+ @apply tw-bg-monochrome-150 tw-border-monochrome-50
+}
+

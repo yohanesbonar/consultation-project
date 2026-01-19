@@ -1,0 +1,12 @@
+.btnHighlight {
+    @apply tw-font-roboto tw-text-[14px] tw-font-medium tw-leading-5 tw-tracking-[0.1px] tw-border-none tw-h-[48px] tw-px-4 tw-py-2 tw-rounded-lg tw-outline-none
+}
+.isPrimary {
+    @apply tw-bg-secondary-def tw-text-tpy-1
+}
+.isSecondary {
+    @apply tw-bg-monochrome-100 tw-text-secondary-def
+}
+.isSecondaryDisabled {
+    @apply !tw-bg-monochrome-300 !tw-text-tpy-300
+}

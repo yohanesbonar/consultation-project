@@ -1,0 +1,64 @@
+.sectionList {
+    @apply tw-w-full tw-bg-white tw-p-4 tw-mb-[5px] tw-border-b-5 tw-border-solid tw-border-monochrome-50
+}
+.sectionLabel {
+    @apply tw-text-[16px] tw-font-semibold tw-mb-1 tw-text-tpy-700
+}
+.fieldGrid {
+    @apply tw-grid tw-grid-cols-3
+}
+.fieldLabel {
+    @apply tw-font-normal tw-text-[14px] !tw-mb-0 tw-mt-3
+}
+.fieldSummaryLabel {
+    @apply tw-font-normal tw-text-[14px] !tw-mb-0 tw-mt-3 tw-text-tpy-700
+}
+.fieldValue {
+    @apply tw-col-span-2 tw-font-medium !tw-mb-0 tw-mt-3
+}
+.textRed {
+    @apply tw-text-error-600
+}
+.fieldValueTotal {
+    @apply tw-col-span-2 tw-font-medium !tw-mb-0 tw-mt-3 tw-text-primary-def
+}
+.summarySection {
+    @apply tw-w-full tw-flex tw-justify-between
+}
+.summaryTotalSection {
+    @apply tw-w-full tw-flex tw-justify-between tw-border-dashed tw-border-b-0 tw-border-x-0 tw-border-t-2 tw-mt-3 tw-border-monochrome-50
+}
+.footerContainer {
+    @apply tw-shadow-2xl tw-p-4
+}
+.paySection {
+    @apply tw-flex tw-justify-between tw-items-center
+}
+.footerTotalLabel {
+    @apply tw-text-tpy-700 tw-text-xs tw-font-medium
+}
+.footerTotalValue {
+    @apply !tw-mb-0 tw-text-black tw-font-medium tw-text-base
+}
+.otherPayContainer {
+    @apply tw-flex tw-items-center
+}
+.btnOtherPay {
+    @apply tw-cursor-pointer tw-mt-3 tw-ml-1
+}
+.inputVoucherBtn {
+    @apply tw-pr-6 tw-pl-4 tw-py-1 tw-flex tw-bg-secondary-50 tw-mb-3 tw-rounded-full tw-justify-between tw-items-center
+}
+.inputVoucherLabel {
+    @apply tw-text-secondary-800 tw-ml-2 tw-font-normal tw-text-sm !tw-mb-0 tw-mr-2
+}
+.validVoucher {
+    @apply tw-text-secondary-800
+}
+.invalidVoucher {
+    @apply tw-text-error-def 
+}
+
+.icArrowVoucher {
+    @apply tw-text-secondary-def tw-text-lg
+}

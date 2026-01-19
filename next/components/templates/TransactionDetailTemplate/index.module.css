@@ -1,0 +1,42 @@
+.wrapperHead {
+    @apply tw-fixed tw-w-full tw-top-0 tw-bg-white tw-bg-opacity-90 tw-z-[2]
+}
+
+.productWrapper {
+    @apply tw-flex tw-justify-between tw-items-center tw-py-5 tw-px-4
+}
+
+.statusLabel {
+    composes: label-14-medium from global;
+    @apply tw-mb-0 tw-text-secondary-def tw-cursor-pointer
+}
+
+.refundFormWrapper {
+    @apply tw-flex tw-justify-between tw-items-center tw-bg-info-50 tw-pr-4 tw-pl-2 tw-py-2 tw-rounded-lg
+}
+
+.fillForm {
+    composes: label-14-medium from global;
+    @apply tw-mb-0 tw-text-secondary-def tw-whitespace-nowrap tw-cursor-pointer
+}
+
+.divider1 {
+    @apply tw-w-full tw-h-1 tw-bg-monochrome-100
+}
+
+.divider2 {
+    @apply tw-bg-monochrome-100 tw-w-full tw-h-1
+}
+
+.shippingInfoLabel {
+    composes: title-16-medium from global;
+    @apply tw-text-tpy-700 tw-mx-4 tw-mt-5 tw-mb-0
+}
+
+.highlightBtnClass {
+    @apply tw-flex tw-items-center tw-flex-1 tw-gap-4 tw-px-2 tw-mx-2 hover:tw-bg-monochrome-50
+}
+
+.highlightChildrenClass {
+    @apply tw-font-roboto tw-font-medium tw-text-black tw-flex-1 tw-text-start
+}

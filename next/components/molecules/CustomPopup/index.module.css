@@ -1,0 +1,15 @@
+.showOverlay {
+    @apply tw-h-full tw-w-full tw-top-0 tw-fixed tw-bg-black tw-opacity-80
+}
+.hideOverlay {
+    @apply tw-hidden
+}
+
+.animateOverlay {
+    justify-self: anchor-center;
+    @apply tw-transition-all tw-duration-200 tw-max-w-[500px] tw-z-10 
+}
+
+.box {
+    @apply tw-text-center tw-fixed tw-left-1/2 tw-top-1/2 tw-mx-auto tw-w-[343px] tw-bg-white tw-rounded-lg tw-p-5 tw-z-50
+}

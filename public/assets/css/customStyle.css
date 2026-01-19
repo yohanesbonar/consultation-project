@@ -1,0 +1,418 @@
+.popoverBody {
+	background-color: transparent;
+	padding-top: 0%;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #d7d7d7;
+	border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888888;
+	border-radius: 100px;
+}
+
+.scrollDownBtn {
+	position: absolute;
+	right: 16px;
+	bottom: 24px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.buttonDown {
+	fill: #666;
+}
+
+.buttonDown:hover {
+	fill: var(--primary-def);
+}
+
+.datepicker-navbar {
+	flex-direction: row-reverse;
+}
+
+.datepicker-modal {
+	position: fixed !important;
+	max-width: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.box-inform-consent {
+	border: 1px solid var(--monochrome-500);
+	border-radius: 8px;
+}
+
+.darken-coachmark {
+	filter: brightness(0.2) !important;
+}
+
+.body-width {
+	max-width: 500px;
+	margin: auto;
+}
+
+.float-width {
+	max-width: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div[data-rsbs-overlay] {
+	max-width: 500px;
+	margin: auto;
+	height: max-content;
+}
+
+.form-label {
+	margin-bottom: 0.5rem;
+}
+
+/* RADIO BUTTON */
+section {
+	display: flex;
+	align-items: center;
+}
+
+input,
+label {
+	cursor: pointer;
+}
+
+input[type='radio'] {
+	height: 20px;
+	width: 20px;
+}
+
+#accent {
+	accent-color: #fc2465;
+}
+
+/* Checkbox */
+.container {
+	position: relative;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -3px;
+	height: 20px;
+	width: 20px;
+	background-color: transparent;
+	border: 1.5px solid rgb(95, 95, 95);
+	border-radius: 15px;
+}
+
+.checkmark-square {
+	border-radius: 6px !important;
+}
+
+/* On mouse-over, add a grey background color (Comment temporary) */
+/* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+	background-color: var(--secondary-def);
+	border: 0;
+}
+
+.container input:checked ~ .checkmark-square {
+	background-color: var(--primary-def) !important;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+	border: 0;
+}
+
+/* End Create a custom checkbox */
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+	left: 7.5px;
+	top: 5px;
+	width: 5px;
+	height: 8px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* Text Overflow */
+.two-line-elipsis {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.one-line-elipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* custom datepicker */
+.customDatePicker .datepicker-modal {
+	position: relative;
+}
+
+.customDatePicker .lockBody {
+	overflow: hidden;
+}
+
+.customDatePicker .datepicker.ios .datepicker-content {
+	background-color: #ffffff !important;
+	padding: 0 !important;
+}
+.customDatePicker .datepicker.ios {
+	background-color: #ffffff !important;
+	border-radius: 20px 20px 0px 0px;
+	position: relative !important;
+}
+
+.customDatePicker .datepicker.ios .datepicker-navbar {
+	top: 20px;
+}
+
+.customDatePicker .datepicker.ios .datepicker-navbar-btn {
+	font-size: 14px;
+	height: 74px;
+	line-height: 74px;
+	color: #666;
+}
+
+.customDatePicker .datepicker.ios .datepicker-scroll {
+	& > li {
+		font-size: 16px;
+		font-weight: 500;
+		color: #000;
+	}
+}
+
+.customDatePicker .datepicker.ios .datepicker-viewport::after {
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#fff),
+		color-stop(52%, rgba(245, 245, 245, 0)),
+		color-stop(48%, rgba(245, 245, 245, 0)),
+		to(#fff)
+	);
+	background-image: linear-gradient(
+		#fff,
+		rgba(245, 245, 245, 0) 52%,
+		rgba(245, 245, 245, 0) 48%,
+		#fff
+	);
+}
+
+/*  end custom datepicker */
+
+.btn-grey-disabled {
+	color: #666666;
+	background-color: #d7d7d7;
+	border-color: #d7d7d7;
+	border-radius: 4px;
+}
+
+.btn-primary-red-disabled {
+	color: #ffffff;
+	background-color: #d01e53;
+	border-color: #d01e53;
+	border-radius: 4px;
+}
+
+.height-dynamic {
+	height: 90vh; /* old browser */
+	height: 100dvh;
+}
+
+.fade-in {
+	animation: fadeIn 2000ms forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	66.67% {
+		/* for 0% to 10% */
+		opacity: 0;
+	}
+
+	100% {
+		/* 10% to 100% */
+		opacity: 1;
+	}
+}
+
+.splashscreenOverlay {
+	/* @apply tw-min-w-[700px] tw-h-full tw-rounded-full tw-absolute tw-left-1/2 tw-top-1/2 tw-transform tw-translate-x-[-50%] tw-z-0 tw-background-[linear-gradient(180deg,var(--primary-def)-27.46%,rgba(0,0,0,0.40)87.07%)]; */
+	min-width: 700px;
+	height: 100%;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	z-index: 0;
+	background: linear-gradient(180deg, var(--primary-def) -27.46%, rgba(0, 0, 0, 0.4) 87.07%);
+}
+
+/* accordion */
+.accordion-button {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 1rem 1.25rem;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--monochrome-def);
+	text-align: left;
+	background-color: #fff;
+	border: none;
+	border-radius: 0;
+	overflow-anchor: none;
+	/* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+			border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+			border-radius 0.15s ease; */
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.accordion-button {
+		transition: none;
+	}
+}
+.accordion-button:not(.collapsed) {
+	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+}
+.accordion-button:not(.collapsed)::after {
+	background-color: var(--monochrome-def);
+	-webkit-mask-image: url('./images/ic-chevron-down.svg');
+	mask-image: url('./images/ic-chevron-down.svg');
+	transform: rotate(-180deg);
+}
+.accordion-button::after {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-left: auto;
+	content: '';
+	background-color: var(--monochrome-def);
+	-webkit-mask-image: url('./images/ic-chevron-down.svg');
+	mask-image: url('./images/ic-chevron-down.svg');
+	background-repeat: no-repeat;
+	background-size: 2rem;
+	background-position: center;
+	transition: transform 0.2s ease-in-out;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.accordion-button::after {
+		transition: none;
+	}
+}
+.accordion-button:hover {
+	z-index: 2;
+}
+.accordion-button:focus {
+	z-index: 3;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.accordion-header {
+	margin-bottom: 0;
+}
+.accordion-item {
+	background-color: #f5f5f5;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.accordion-item:first-of-type {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.accordion-item:not(:first-of-type) {
+	border-top: 0;
+}
+.accordion-item:last-of-type {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.accordion-item:last-of-type .accordion-collapse {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.accordion-body {
+	border-bottom: 1px solid #f3f3f3;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.accordion-flush .accordion-collapse {
+	border-width: 0;
+}
+.accordion-flush .accordion-item {
+	border-right: 0;
+	border-left: 0;
+	border-radius: 0;
+}
+.accordion-flush .accordion-item:first-child {
+	border-top: 0;
+}
+.accordion-flush .accordion-item:last-child {
+	border-bottom: 0;
+}
+.accordion-flush .accordion-item .accordion-button {
+	border-radius: 0;
+}
+
+/* accordion */

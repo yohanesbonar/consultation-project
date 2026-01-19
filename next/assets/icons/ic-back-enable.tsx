@@ -1,0 +1,67 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const IcBackEnable = ({ width = '56', height = '56' }: IcProps) => (
+	<svg
+		width={width}
+		height={height}
+		viewBox="0 0 56 56"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<g filter="url(#filter0_d_494_53270)">
+			<rect
+				x="4"
+				y="3"
+				width="48"
+				height="48"
+				rx="24"
+				fill="white"
+				shapeRendering="crispEdges"
+			/>
+			<g clipPath="url(#clip0_494_53270)">
+				<path
+					d="M36.7171 25.693H22.3831L28.6461 19.261C28.8868 19.009 29.0212 18.674 29.0212 18.3255C29.0212 17.977 28.8868 17.6419 28.6461 17.39C28.529 17.2681 28.3884 17.1711 28.2329 17.1049C28.0774 17.0386 27.9101 17.0045 27.7411 17.0045C27.572 17.0045 27.4047 17.0386 27.2492 17.1049C27.0937 17.1711 26.9532 17.2681 26.8361 17.39L18.3761 26.071C18.1354 26.3204 18.001 26.6534 18.001 27C18.001 27.3465 18.1354 27.6796 18.3761 27.929L26.8341 36.614C26.9512 36.7359 27.0917 36.8328 27.2472 36.8991C27.4027 36.9653 27.57 36.9995 27.7391 36.9995C27.9081 36.9995 28.0754 36.9653 28.2309 36.8991C28.3864 36.8328 28.527 36.7359 28.6441 36.614C28.8847 36.3646 29.0191 36.0315 29.0191 35.685C29.0191 35.3384 28.8847 35.0054 28.6441 34.756L22.3831 28.325H36.7171C37.0666 28.325 37.4019 28.1861 37.649 27.9389C37.8962 27.6918 38.0351 27.3565 38.0351 27.007C38.0351 26.6574 37.8962 26.3222 37.649 26.075C37.4019 25.8278 37.0666 25.689 36.7171 25.689V25.693Z"
+					fill="black"
+				/>
+			</g>
+		</g>
+		<defs>
+			<filter
+				id="filter0_d_494_53270"
+				x="0"
+				y="0"
+				width="56"
+				height="56"
+				filterUnits="userSpaceOnUse"
+				colorInterpolationFilters="sRGB"
+			>
+				<feFlood floodOpacity="0" result="BackgroundImageFix" />
+				<feColorMatrix
+					in="SourceAlpha"
+					type="matrix"
+					values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+					result="hardAlpha"
+				/>
+				<feOffset dy="1" />
+				<feGaussianBlur stdDeviation="2" />
+				<feComposite in2="hardAlpha" operator="out" />
+				<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" />
+				<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_494_53270" />
+				<feBlend
+					mode="normal"
+					in="SourceGraphic"
+					in2="effect1_dropShadow_494_53270"
+					result="shape"
+				/>
+			</filter>
+			<clipPath id="clip0_494_53270">
+				<rect width="24" height="24" fill="white" transform="translate(16 15)" />
+			</clipPath>
+		</defs>
+	</svg>
+);
+
+export default IcBackEnable;

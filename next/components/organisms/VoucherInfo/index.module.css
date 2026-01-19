@@ -1,0 +1,10 @@
+.inputVoucherBtn {
+    @apply tw-h-[40px] tw-flex tw-bg-secondary-50 tw-justify-between tw-items-center tw-rounded-tl-[8px] tw-rounded-tr-[8px]
+}
+.inputVoucherLabel {
+    @apply tw-ml-3 tw-font-normal tw-text-sm !tw-mb-0
+}
+
+.icArrowVoucher {
+    @apply tw-text-secondary-def tw-text-lg
+}

@@ -1,0 +1,6 @@
+.inputVoucherBtn {
+    @apply tw-pr-3 tw-pl-4 tw-py-1 tw-flex tw-bg-secondary-50 tw-mb-3 tw-rounded-full tw-justify-between tw-items-center
+}
+.inputVoucherLabel {
+    @apply tw-ml-3 tw-font-normal tw-text-sm !tw-mb-0
+}

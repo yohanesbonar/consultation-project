@@ -1,0 +1,26 @@
+.dateTime {
+    composes: body-12-regular from global;
+    @apply tw-text-tpy-700 tw-mb-0 tw-w-[70px]
+}
+
+.stepWrapper {
+    @apply tw-mx-5 tw-relative
+}
+
+.circleItem {
+    @apply tw-w-[18px] tw-relative tw-z-2 tw-h-[18px] tw-rounded-full
+}
+
+.verticalDivider {
+    @apply tw-w-[2px] tw-z-0 tw-h-full tw-absolute tw-top-0 tw-left-1/2 tw-translate-x-[-50%] tw-bg-monochrome-300
+}
+
+.title {
+    composes: title-14-medium from global;
+    @apply tw-mb-0
+}
+
+.subtitle {
+    composes: body-12-regular from global;
+    @apply tw-mb-0 tw-pb-5 tw-w-48
+}

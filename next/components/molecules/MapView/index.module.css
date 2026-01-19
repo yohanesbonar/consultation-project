@@ -1,0 +1,7 @@
+.iconMapPoint {
+    @apply tw-absolute tw-z-4 tw-left-1/2 tw-translate-x-[-50%] tw-translate-y-[-50%]
+}
+
+.btnAction {
+    @apply tw-fixed tw-bottom-[213px] tw-flex tw-justify-between tw-w-full tw-max-w-[500px] tw-px-3
+}

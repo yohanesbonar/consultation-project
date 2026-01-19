@@ -1,0 +1,38 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const PersonIcon = ({ width = '40', height = '40' }: IcProps) => (
+	<svg
+		width={width}
+		height={height}
+		viewBox="0 0 40 40"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<ellipse cx="20.001" cy="20" rx="20" ry="20" fill="#00429C" />
+		<mask
+			id="mask0_1_6164"
+			style={{ maskType: 'alpha' }}
+			maskUnits="userSpaceOnUse"
+			x="0"
+			y="0"
+			width="40"
+			height="40"
+		>
+			<ellipse cx="20" cy="20" rx="20" ry="20" fill="#3D7E91" />
+		</mask>
+		<g mask="url(#mask0_1_6164)">
+			<path
+				fillRule="evenodd"
+				clipRule="evenodd"
+				d="M13.2397 20.9026C10.8456 21.2242 8.99951 23.2752 8.99951 25.7573V40.0036H30.8794V25.7573C30.8794 23.2755 29.0338 21.2248 26.6402 20.9027C24.9885 22.7317 22.5985 23.8811 19.94 23.8811C17.2815 23.8811 14.8914 22.7316 13.2397 20.9026Z"
+				fill="#D85A7F"
+			/>
+			<ellipse cx="19.94" cy="14.8384" rx="6.83746" ry="6.83745" fill="#F8DDBE" />
+		</g>
+	</svg>
+);
+
+export default PersonIcon;

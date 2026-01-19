@@ -1,0 +1,19 @@
+.container {
+    @apply tw-flex tw-flex-col tw-overflow-hidden tw-justify-center tw-items-center tw-text-center tw-p-4
+}
+
+.mailImage {
+    @apply tw-w-[247.11px] tw-h-[220px] tw-pb-10 tw-relative
+}
+
+.title {
+    composes: title-18-medium from global;
+    @apply tw-mb-2 tw-mt-5 tw-px-2
+}
+
+.desc {
+    @apply tw-font-normal tw-text-sm tw-px-2
+}
+.btnContainer {
+    @apply tw-w-full tw-h-[48px] tw-px-4
+}

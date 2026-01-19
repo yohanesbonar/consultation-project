@@ -1,0 +1,50 @@
+.voucherContainerActive {
+	border: 1px solid;
+	@apply tw-relative tw-py-3 tw-px-4 tw-bg-secondary-50 tw-rounded-lg
+		tw-transition-all tw-duration-700 tw-border-secondary-def;
+}
+.voucherContainer {
+	border: 1px solid;
+	@apply tw-relative tw-py-3 tw-px-4 tw-bg-monochrome-100 tw-rounded-lg tw-border-monochrome-50;
+}
+
+.voucherContainerDisabled {
+	border: 1px solid;
+	@apply tw-relative tw-py-3 tw-px-4 tw-bg-monochrome-150 tw-rounded-lg tw-border-monochrome-50;
+}
+
+.roundedVoucher {
+	border: 1px solid;
+	top: 50%;
+	transform: translateY(-50%);
+	@apply tw-w-8 tw-h-8 tw-rounded-full tw-absolute tw-z-[1] -tw-left-4 tw-bg-white tw-border-monochrome-50;
+}
+
+.roundedVoucherActive {
+	border: 1px solid;
+	top: 50%;
+	transform: translateY(-50%);
+	@apply tw-w-8 tw-h-8 tw-rounded-full tw-absolute tw-z-[1] -tw-left-4 tw-bg-white tw-transition-all tw-duration-700 tw-border-secondary-def;
+}
+
+.roundedOverlay {
+	top: 50%;
+	transform: translateY(-50%);
+	@apply tw-w-8 tw-h-8 tw-absolute tw-z-[1] -tw-left-[33px] tw-bg-white;
+}
+
+.contentLeft {
+	@apply tw-ml-3;
+}
+.contentRight {
+	border-left: 1px dashed;
+	@apply tw-ml-3 tw-pl-4 tw-py-3 tw-flex tw-border-secondary-300;
+}
+
+.contentWrapper {
+	@apply tw-flex tw-justify-between;
+}
+
+.radioInput {
+	@apply checked:tw-bg-slate-500;
+}

@@ -1,0 +1,7 @@
+.rectangle {
+       @apply tw-w-full tw-h-1 tw-bg-monochrome-100 tw-mt-5
+}
+
+.divider {
+       @apply tw-border-monochrome-50 tw-mt-0
+}

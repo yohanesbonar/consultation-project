@@ -1,0 +1,9 @@
+.buttonFilter {
+    @apply tw-flex tw-px-3 tw-py-2 tw-items-center tw-whitespace-nowrap 
+}
+.activeTab {
+    @apply !tw-text-secondary-def !tw-border-none hover:!tw-bg-secondary-100 focus:!tw-bg-secondary-100 tw-bg-secondary-100
+}
+.nonActiveTab {
+    @apply !tw-text-tpy-800 !tw-border-none hover:!tw-bg-white focus:!tw-bg-white tw-bg-white
+}

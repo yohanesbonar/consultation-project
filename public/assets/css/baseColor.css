@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary-def: #d01e53;
+        --primary-100: #fce3ea;
+        --primary-300: #D897A7;
+        --primary-400: #f87171;
+        --primary-600: #dc2626;
+        --primary-900: #bb1a4f;
+
+        --secondary-def: #0771cd;
+        --secondary-50: #e6f1fa;
+        --secondary-100: #e2f1fc;
+        --secondary-150: #c1cdd6;
+        --secondary-200: #d4edff;
+        --secondary-300: #b9dcf9;
+        --secondary-700: #0360bb;
+        --secondary-800: #00429c;
+
+        --monochrome-def: #666666;
+        --monochrome-1: #ffffff;
+        --monochrome-50: #f9fafb;
+        --monochrome-100: #f6f6f7;
+        --monochrome-150: #f5f5f5;
+        --monochrome-200: #f3f3f3;
+        --monochrome-300: #ebebeb;
+        --monochrome-400: #d9d9d9;
+        --monochrome-500: #d7d7d7;
+        --monochrome-700: #989898;
+        --monochrome-800: #222222;
+        --monochrome-900: #000000;
+
+        --tpy-def: #666666;
+        --tpy-1: #ffffff;
+        --tpy-50: #f9fafb;
+        --tpy-100: #f6f6f7;
+        --tpy-150: #f5f5f5;
+        --tpy-200: #f3f3f3;
+        --tpy-300: #ebebeb;
+        --tpy-400: #d9d9d9;
+        --tpy-500: #d7d7d7;
+        --tpy-700: #989898;
+        --tpy-800: #222222;
+        --tpy-900: #000000;
+
+        --background-def: #ffffff;
+        --background-1: #ffffff;
+        --background-50: #f9fafb;
+        --background-100: #f6f6f7;
+        --background-150: #f5f5f5;
+        --background-200: #f3f3f3;
+        --background-300: #ebebeb;
+        --background-400: #d9d9d9;
+        --background-500: #d7d7d7;
+        --background-700: #989898;
+        --background-800: #222222;
+        --background-900: #000000;
+
+        --success-def: #178038;
+        --success-50: #e8f2eb;
+        --success-100: #e7f6ea;
+        --success-800: #006125;
+
+        --error-def: #b00020;
+        --error-50: #fce3ea;
+        --error-100: #fce3ea;
+        --error-600: #d01e53;
+        --error-900: #bb1a4f;
+
+        --info-def: #fff8e1;
+        --info-50: #fef1e7;
+        --info-100: #fde2ce;
+        --info-600: #bd5100;
+        --info-700: #bd5100;
+    }
+}
+
+@layer components {
+    body {
+        opacity: 100% !important;
+    }
+}

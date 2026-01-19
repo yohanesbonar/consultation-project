@@ -1,0 +1,17 @@
+.locationLabel {
+	composes: label-12-medium from global;
+	@apply tw-text-tpy-700 tw-mb-0;
+}
+
+.merchentWrapper {
+	@apply tw-mt-3 tw-flex tw-justify-between tw-items-center tw-py-[6px] tw-px-2 tw-bg-monochrome-150 tw-rounded-full tw-cursor-pointer;
+}
+
+.seeOtherLabel {
+	composes: label-12-medium from global;
+	@apply tw-flex-1 tw-ml-3 tw-mr-2 tw-mb-0 tw-text-black;
+}
+
+.imgMerchentWrapper {
+	@apply tw-relative tw-h-10 tw-w-10;
+}

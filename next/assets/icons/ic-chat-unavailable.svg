@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82.002" viewBox="0 0 82 82.002">
+  <g id="ic-chat-unavailable-82" transform="translate(1 -0.333)">
+    <path id="Rectangle_37" data-name="Rectangle 37" d="M41,0h0A41,41,0,0,1,82,41v0A41,41,0,0,1,41,82H3.28A3.28,3.28,0,0,1,0,78.72V41A41,41,0,0,1,41,0Z" transform="translate(-1 0.333)" fill="#666"/>
+    <path id="Intersection_53" data-name="Intersection 53" d="M0,59.115A68.376,68.376,0,0,1,58.174,0a41.017,41.017,0,0,1-36.79,59.118Z" transform="translate(18.616 23.221)" fill="#989898"/>
+    <g id="Group_32745" data-name="Group 32745" transform="translate(-167 -1466.666)">
+      <g id="ic-time-18" transform="translate(193 1496)">
+        <rect id="Rectangle_37-2" data-name="Rectangle 37" width="36" height="36" rx="18" fill="#212121"/>
+        <g id="Group_29775" data-name="Group 29775" transform="translate(13.138 7.197)">
+          <rect id="Rectangle_6005" data-name="Rectangle 6005" width="5.053" height="16.17" rx="2.527" transform="translate(0.909 0)" fill="#212121"/>
+          <rect id="Rectangle_6006" data-name="Rectangle 6006" width="5.053" height="12.128" rx="2.527" transform="matrix(0.574, -0.819, 0.819, 0.574, 0, 14.449)" fill="#212121"/>
+        </g>
+      </g>
+      <g id="ic-time-18-2" data-name="ic-time-18" transform="translate(188 1492)">
+        <rect id="Rectangle_37-3" data-name="Rectangle 37" width="36" height="36" rx="18" fill="#fff"/>
+        <g id="Group_29775-2" data-name="Group 29775" transform="translate(13.138 7.197)">
+          <rect id="Rectangle_6005-2" data-name="Rectangle 6005" width="5.053" height="16.17" rx="2.527" transform="translate(0.909 0)" fill="#212121"/>
+          <rect id="Rectangle_6006-2" data-name="Rectangle 6006" width="5.053" height="12.128" rx="2.527" transform="matrix(0.574, -0.819, 0.819, 0.574, 0, 14.449)" fill="#212121"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

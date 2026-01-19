@@ -1,0 +1,13 @@
+.wrapper {
+	@apply tw-mb-4 tw-flex tw-justify-start tw-items-start;
+}
+
+.locationLabel {
+	composes: label-12-medium from global;
+	@apply tw-text-tpy-700 tw-mb-0;
+}
+
+.detailLabel {
+	composes: body-14-regular from global;
+	@apply tw-flex tw-justify-start tw-items-start tw-mb-0;
+}

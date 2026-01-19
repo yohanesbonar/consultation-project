@@ -1,0 +1,21 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const IconMinusGray = ({ width = '24', height = '24' }: IcProps) => (
+	<svg
+		width={width}
+		height={height}
+		viewBox="0 0 24 24"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<path
+			d="M5.143 11.0001L18.857 11.0001C19.1601 11.0001 19.4509 11.1206 19.6652 11.3349C19.8796 11.5493 20 11.84 20 12.1431C20 12.4463 19.8796 12.737 19.6652 12.9514C19.4509 13.1657 19.1601 13.2861 18.857 13.2861L5.143 13.2861C4.83986 13.2861 4.54913 13.1657 4.33478 12.9514C4.12042 12.737 4 12.4463 4 12.1431C4 11.84 4.12042 11.5493 4.33478 11.3349C4.54913 11.1206 4.83986 11.0001 5.143 11.0001Z"
+			fill="#D7D7D7"
+		/>
+	</svg>
+);
+
+export default IconMinusGray;

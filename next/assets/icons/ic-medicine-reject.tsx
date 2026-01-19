@@ -1,0 +1,51 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const IcMedicineReject = ({ width = '40', height = '40' }: IcProps) => (
+	<svg
+		width={width}
+		height={height}
+		viewBox="0 0 40 40"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<circle cx="20" cy="20" r="20" fill="#FCE3EA" />
+		<rect x="12.9629" y="10.7207" width="11.8519" height="2.54512" fill="#989898" />
+		<rect x="10.7407" y="5.83398" width="16.2963" height="4.88663" rx="1.22166" fill="#666666" />
+		<rect x="10" y="13.2412" width="17.7778" height="20" rx="1.62888" fill="white" />
+		<rect x="10" y="16.2041" width="17.7778" height="11.8519" fill="#0771CD" />
+		<rect x="17.7778" y="17.6855" width="2.22222" height="8.88889" rx="0.37037" fill="white" />
+		<rect
+			x="23.3335"
+			y="21.0195"
+			width="2.22222"
+			height="8.88889"
+			rx="0.37037"
+			transform="rotate(90 23.3335 21.0195)"
+			fill="white"
+		/>
+		<circle cx="27.7775" cy="29.9083" r="5.92593" fill="#BB1A4F" />
+		<rect
+			x="30.0308"
+			y="26.6074"
+			width="1.48148"
+			height="7.90123"
+			rx="0.740741"
+			transform="rotate(45 30.0308 26.6074)"
+			fill="white"
+		/>
+		<rect
+			x="31.1421"
+			y="32.1631"
+			width="1.48148"
+			height="7.90123"
+			rx="0.740741"
+			transform="rotate(135 31.1421 32.1631)"
+			fill="white"
+		/>
+	</svg>
+);
+
+export default IcMedicineReject;

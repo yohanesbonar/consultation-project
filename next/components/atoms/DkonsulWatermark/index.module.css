@@ -1,0 +1,17 @@
+.watermark {
+    position: fixed;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2); /* Adjust the color and opacity as needed */
+    pointer-events: none; /* Ensure the watermark doesn't interfere with interactions */
+    z-index: 0;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    overflow: hidden;
+  }
+
+  .rotatedText {
+    transform: rotate(-35deg); /* Rotate the text by -45 degrees */
+  }

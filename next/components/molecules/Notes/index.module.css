@@ -1,0 +1,3 @@
+.cardBoxClass {
+    @apply tw-overflow-hidden tw-rounded-lg tw-border-1 tw-border-solid tw-border-monochrome-50
+}

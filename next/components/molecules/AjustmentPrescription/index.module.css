@@ -1,0 +1,40 @@
+.collapseBtn {
+	@apply tw-cursor-pointer tw-flex tw-justify-start tw-items-center tw-p-4;
+}
+
+.collapseLabel {
+	composes: label-14-medium from global;
+    @apply tw-mb-0 tw-text-secondary-def tw-mr-2
+}
+
+.productWrapper {
+	@apply tw-flex tw-justify-start tw-items-start;
+}
+
+.imgLoadContainer {
+	@apply tw-w-10 tw-h-10 tw-relative tw-rounded-lg;
+}
+
+.imgLoadClass {
+	@apply tw-w-10 tw-h-10 tw-rounded-lg;
+}
+
+.productName {
+	composes: title-14-medium from global;
+	@apply tw-mb-0;
+}
+
+.oriQty {
+    composes: label-12-medium from global;
+	@apply tw-mb-0 tw-text-tpy-700;
+}
+
+.newQtyLabel {
+    composes: label-12-medium from global;
+	@apply tw-mb-0 tw-text-tpy-700;
+}
+
+.reasonQty {
+    composes: label-14-medium from global;
+	@apply tw-mb-0;
+}

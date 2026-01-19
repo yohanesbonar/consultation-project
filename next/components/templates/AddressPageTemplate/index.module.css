@@ -1,0 +1,50 @@
+.chooseMapContainer {
+    @apply tw-flex tw-items-center tw-mt-4 tw-h-[48px] tw-cursor-pointer
+}
+
+.labelChooseMap {
+    composes: body-14-regular from global;
+    @apply tw-pl-2 tw-mb-0
+}
+
+.currentLocationContainer {
+    @apply tw-flex tw-items-start tw-h-[48px] tw-mt-2 tw-cursor-pointer
+}
+
+.labelSetCurrentLocation {
+    composes: body-14-regular from global;
+    @apply tw-pl-2 tw-mb-0 tw-text-primary-def
+}
+
+.labelCurrentLocation {
+    composes: body-12-regular from global;
+    @apply tw-pl-2 tw-mb-0 tw-mt-1
+}
+
+.emptyContainer {
+    @apply tw-flex tw-items-center tw-my-2 tw-pt-3
+}
+
+.emptyTitle {
+    composes: title-16-medium from global;
+    @apply tw-mb-0
+}
+
+.emptySub {
+    composes: body-14-regular from global;
+    @apply tw-text-tpy-700 tw-mb-0
+}
+
+.addressListContainer {
+    @apply tw-flex tw-my-4 tw-cursor-default
+}
+
+.addressTitle {
+    composes: label-14-medium from global;
+    @apply tw-mb-0
+}
+
+.addressSub {
+    composes: body-12-regular from global;
+    @apply tw-mb-0 tw-mt-1 tw-text-tpy-700
+}

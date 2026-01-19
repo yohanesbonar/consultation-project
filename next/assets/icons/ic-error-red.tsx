@@ -1,0 +1,17 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const IconErrorRed = ({ width = '20', height = '20' }: IcProps) => (
+	<svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 20 20">
+		<path
+			id="error-24px"
+			d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,11a1,1,0,0,1-1-1V8a1,1,0,1,1,2,0v4A1,1,0,0,1,12,13Zm1,4a1.521,1.521,0,0,1-2,0,1.521,1.521,0,0,1,0-2,1.521,1.521,0,0,1,2,0A1.521,1.521,0,0,1,13,17Z"
+			transform="translate(-2 -2)"
+			fill="red"
+		/>
+	</svg>
+);
+
+export default IconErrorRed;

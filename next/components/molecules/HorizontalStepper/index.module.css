@@ -1,0 +1,16 @@
+.stepContainer {
+    @apply tw-w-[100px]
+ }
+ 
+ .stepWrapper {
+     @apply tw-relative tw-flex tw-flex-col tw-justify-center tw-items-center 
+ }
+ 
+ .labelProgressContainer {
+     @apply tw-w-[70px] tw-mx-auto tw-mt-1
+ }
+ 
+ .labelProgress {
+    composes: label-12-medium from global;
+     @apply tw-text-center tw-mb-0
+ }

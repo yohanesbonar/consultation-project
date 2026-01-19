@@ -1,0 +1,3 @@
+.divider {
+    @apply tw-border-monochrome-50 tw-my-4
+}

@@ -1,0 +1,34 @@
+import React from 'react';
+interface IcProps {
+	width?: string;
+	height?: string;
+}
+const IcScrollUpDown = ({ width = '36', height = '36' }: IcProps) => (
+	<svg
+		id="ic-scroll-up-down-36"
+		xmlns="http://www.w3.org/2000/svg"
+		width={width}
+		height={height}
+		viewBox="0 0 36 36"
+	>
+		<rect
+			id="scroll_up"
+			data-name="scroll up"
+			width={width}
+			height={height}
+			rx="18"
+			fill="current"
+		/>
+		<g id="arrow_circle_up-black-24dp" transform="translate(2 2)">
+			<rect id="Rectangle_5658" data-name="Rectangle 5658" width="32" height="32" fill="none" />
+			<path
+				id="arrow-only-top"
+				d="M16.962,20.964v-7.7a2.509,2.509,0,0,1,2.429-2.567h0a2.509,2.509,0,0,1,2.429,2.567v7.7h4.349a1.281,1.281,0,0,1,.85,2.182l-6.778,7.163a1.158,1.158,0,0,1-1.725,0l-6.778-7.163a1.293,1.293,0,0,1,.875-2.182Z"
+				transform="translate(-3.388 -4.693)"
+				fill="#fff"
+			/>
+		</g>
+	</svg>
+);
+
+export default IcScrollUpDown;

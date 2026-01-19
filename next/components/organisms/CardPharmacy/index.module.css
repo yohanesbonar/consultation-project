@@ -1,0 +1,23 @@
+.cardBox {
+	border-radius: 8px;
+	background: var(--Text-White100, #fff);
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);
+	@apply tw-px-4 tw-py-3 tw-mb-4;
+}
+
+.btnInActive {
+	composes: title-14-medium from global;
+	@apply tw-rounded-lg tw-px-3 tw-py-2 tw-bg-secondary-def tw-outline-none tw-shadow-none tw-border-none tw-text-tpy-50;
+}
+.btnActive {
+	composes: title-14-medium from global;
+	@apply tw-rounded-lg tw-px-3 tw-py-2 tw-bg-white tw-text-secondary-def tw-outline-none tw-shadow-none tw-border-none;
+}
+
+.active {
+	@apply tw-bg-secondary-50 tw-border-0 tw-border-solid tw-border-l-4 tw-border-secondary-def;
+}
+
+.apotekWrapper {
+	@apply tw-border-0 tw-pb-4 tw-mb-4 tw-border-b-[1px] tw-border-solid tw-border-monochrome-500 tw-flex tw-justify-between tw-items-start tw-cursor-pointer
+}

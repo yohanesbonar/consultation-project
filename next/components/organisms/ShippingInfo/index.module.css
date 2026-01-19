@@ -1,0 +1,19 @@
+.infoWrapper {
+    @apply tw-py-5 tw-px-4
+}
+
+.infoGrid {
+    @apply tw-grid tw-grid-cols-3
+}
+
+.colSpan2 {
+    @apply tw-col-span-2 !tw-mb-0
+}
+
+.colSpan3 {
+    @apply tw-col-span-3 !tw-mb-0
+}
+
+.flexItem {
+    @apply tw-mt-3 tw-flex tw-items-center
+}

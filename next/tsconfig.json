@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@templates": ["./components/templates/index"],
+      "@organisms": ["./components/organisms/index"],
+      "@molecules": ["./components/molecules/index"],
+      "@atoms": ["./components/atoms/index"],
+      "@icons": ["./assets/icons/index"],
+      "@images": ["./assets/images/index"],
+      "@lotties": ["./assets/lotties/index"],
+      "@types": ["./types/index"],
+      "react": [ "../node_modules/@types/react" ],
+      "@hocs": ["./components/hocs/index"]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "next.config.js",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}

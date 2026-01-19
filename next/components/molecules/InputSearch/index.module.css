@@ -1,0 +1,9 @@
+.inputSearch {
+    composes: body-14-regular from global;
+    @apply tw-outline-none tw-rounded-[4px] tw-w-full tw-border-none tw-bg-monochrome-150 tw-text-tpy-700 tw-pr-4
+}
+
+.bottomMessage {
+    composes: body-12-regular from global;
+    @apply tw-text-tpy-700 tw-mb-0 tw-mt-2
+}

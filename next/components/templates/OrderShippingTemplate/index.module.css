@@ -1,0 +1,3 @@
+.rectangle {
+    @apply tw-w-full tw-h-1 tw-bg-monochrome-100 tw-mb-4
+}

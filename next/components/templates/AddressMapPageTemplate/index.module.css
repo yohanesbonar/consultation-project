@@ -1,0 +1,17 @@
+.addressListContainer {
+    @apply tw-flex tw-flex-row tw-my-4 tw-cursor-default tw-h-16 tw-max-w-full tw-overflow-hidden
+}
+
+.addressTitle {
+    composes: label-14-medium from global;
+    @apply tw-mb-0
+}
+
+.addressSub {
+    composes: body-12-regular from global;
+    @apply tw-mb-0 tw-mt-1 tw-text-tpy-700
+}
+
+.confirmAddressContainer {
+    @apply tw-w-full tw-max-w-[500px] tw-p-4 tw-bg-white tw-z-20 
+}

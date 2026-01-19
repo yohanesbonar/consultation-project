@@ -1,0 +1,7 @@
+.imgLoadContainer {
+	@apply tw-relative tw-rounded-t-[8px];
+}
+
+.imgLoadClass {
+	@apply tw-rounded-t-[8px] !tw-object-cover !tw-aspect-auto;
+}

@@ -1,0 +1,36 @@
+.container {
+	@apply !tw-overflow-y-hidden tw-relative;
+}
+.containerWithExternalSplash {
+	@apply !tw-overflow-y-hidden tw-relative;
+}
+
+.section {
+	@apply tw-relative !tw-z-20 tw-flex tw-flex-col tw-items-center tw-justify-center tw-h-full tw-px-7 tw-py-6 tw-gap-5;
+}
+
+.overlay {
+	@apply tw-fixed tw-bottom-0 tw-max-w-[500px] tw-w-full tw-z-0;
+}
+
+.device {
+	@apply tw-max-w-full tw-h-full tw-object-contain tw-max-h-[55vh];
+}
+
+.imageContainer {
+	@apply tw-w-[312px] tw-h-[375px] tw-mt-2 tw-flex tw-justify-center tw-items-center
+}
+
+.logoContainer {
+	@apply tw-w-[160px] tw-h-[90px] tw-flex tw-justify-center tw-items-center
+}
+
+.messageText {
+	composes: headline-24-bold from global;
+	@apply tw-mb-0 tw-text-center tw-text-white tw-mt-2
+}
+
+.redirectText {
+	composes: body-14-regular from global;
+	@apply tw-mb-0 tw-text-center tw-text-white tw-mt-6
+}

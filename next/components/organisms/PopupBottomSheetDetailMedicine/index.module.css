@@ -1,0 +1,17 @@
+.merchentWrapper {
+	@apply tw-pb-4 tw-mb-2 tw-flex tw-justify-between tw-items-start;
+}
+
+.locationLabel {
+	composes: label-12-medium from global;
+	@apply tw-text-tpy-def tw-mb-0;
+}
+
+.medicineWrapper {
+	@apply tw-flex tw-items-center tw-mb-4;
+}
+
+.qtyLabel {
+	composes: body-12-regular from global;
+	@apply tw-my-1 tw-text-tpy-def;
+}

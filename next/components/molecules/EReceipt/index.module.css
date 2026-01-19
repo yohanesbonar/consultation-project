@@ -1,0 +1,36 @@
+.emptyContainer {
+    @apply tw-m-4
+}
+
+.productEmptyWrapper {
+    @apply tw-flex tw-gap-4 tw-pb-4
+}
+
+.emptyProductName {
+    @apply tw-text-[16px] tw-font-roboto tw-font-medium tw-text-tpy-700 tw-tracking-[.15px]
+}
+
+.productNotGiven {
+    @apply tw-text-[14px] tw-font-roboto tw-font-medium tw-text-error-def
+}
+
+.reasonLabel {
+    @apply tw-text-[12px] tw-font-roboto tw-font-medium tw-text-tpy-700 tw-tracking-[.19px]
+}
+
+.rejectReason {
+    @apply tw-text-[14px] tw-font-roboto tw-font-medium tw-tracking-[.25px]
+}
+
+.collapseBtn {
+    @apply tw-cursor-pointer tw-flex tw-justify-start tw-items-center tw-p-4
+}
+
+.collapseLabel {
+    composes: title-14-medium from global;
+    @apply tw-mb-0 tw-text-secondary-def tw-mr-2
+}
+
+.cardBoxClass {
+    @apply tw-overflow-hidden tw-rounded-lg tw-border-1 tw-border-solid tw-border-monochrome-50
+}
